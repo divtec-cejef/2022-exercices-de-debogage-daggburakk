@@ -4,7 +4,7 @@ let niveauDeCarburant = 27000;
 if (niveauDeCarburant >= 20000) {
 	console.log('Niveau de carburant vérifié.');
 	lancementOk = true;
-} ellse {
+} else {
 	console.log('AVERTISSEMENT : Carburant insuffisant !');
 	lancementok = false;
 }
